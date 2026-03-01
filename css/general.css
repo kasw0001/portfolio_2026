@@ -27,7 +27,7 @@ img {
     height: auto;
 }
 .hero {
-    padding: 4rem 6rem;
+    padding: 4rem 7rem;
 }
 .hero h1 {
     padding-left: 3rem;
@@ -160,7 +160,7 @@ footer {
     min-height: 250px;
 }
 .kontakt {
-    text-align: right; /* aligns text inside to the right */
+    text-align: right;
 }
 .footer_links {
     display: flex;
