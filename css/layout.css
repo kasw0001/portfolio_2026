@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F3EFEA;
+}
+
+.grid_3-2 {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+.case {
+    padding: 2rem 3rem;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 4rem;
+    align-items: center;
+}
+.case2 {
+    padding: 2rem 3rem;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 4rem;
+    align-items: center;
+}
+.mig {
+    padding: 3rem 10rem;
+}
+footer {
+    padding: 2rem 8rem;
+}
+
+@media (max-width: 900px) {
+
+    .grid_3-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .skills_grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero_text h1 {
+        font-size: 40px;
+    }
+}

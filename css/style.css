@@ -1,0 +1,39 @@
+h1, h2 {
+    font-family: Kugile;
+    color: #1E1E1E;
+}
+h1 {
+    font-size: 70px;
+    color: #9C0000;
+}
+h3 {
+    font-family: Inter;
+}
+p {
+    font-family: Inter;
+    line-height: 25px;
+}
+.byline {
+    font-family: Inter italic;
+}
+li {
+    font-family: Inter;
+    line-height: 1.5;
+}
+.italic {
+    font-family: Inter italic;
+}
+.mig h2, .mig p {
+    color: #FEFBF7;
+}
+H4 {
+    font-size: 40px;
+}
+.grey {
+    font-size: 14px;
+    color: rgb(97, 97, 97);
+}
+footer a {
+    color: #9c0000;
+    font-family: Inter;
+}
