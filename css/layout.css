@@ -28,6 +28,9 @@ body {
 footer {
     padding: 2rem 8rem;
 }
+footer h4 {
+    padding: 3rem 0rem;
+}
 
 @media (max-width: 900px) {
 
