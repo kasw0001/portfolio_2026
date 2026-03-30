@@ -34,15 +34,106 @@ footer h4 {
 
 @media (max-width: 900px) {
 
-    .grid_3-2 {
-        grid-template-columns: 1fr;
+    .hero,
+    .skills,
+    .cases,
+    .mig,
+    footer {
+        padding: 2rem 1.5rem;
     }
 
+    /* HERO */
+    .hero h1 {
+        padding-left: 0;
+        font-size: 42px;
+        line-height: 1.2;
+    }
+
+    .grid_3-2 {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 0;
+    }
+
+    .hero_text p {
+        max-width: 100%;
+    }
+
+    .hero_svg {
+        width: 80px;
+        transform: translate(10%, 60%);
+    }
+
+    /* SKILLS */
     .skills_grid {
         grid-template-columns: 1fr;
     }
 
-    .hero_text h1 {
-        font-size: 40px;
+    .card {
+        padding: 1.5rem;
+    }
+
+    /* CASES */
+    .case,
+    .case2 {
+        grid-template-columns: 1fr;
+        padding: 1.5rem;
+        gap: 2rem;
+    }
+
+    .case_img img,
+    .case_img video {
+        width: 100%;
+        height: auto;
+    }
+
+    .grid_3-2 .grid_3-2 {
+        grid-template-columns: 1fr;
+    }
+
+    /* ABOUT */
+    .mig p {
+        max-width: 100%;
+        padding-left: 1rem;
+    }
+
+    /* FOOTER */
+    footer {
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .kontakt {
+        text-align: center;
+    }
+
+    .footer_links {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .footer_links a {
+        padding: 0;
+    }
+
+    .footer_links a::after {
+        display: none;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.6;
     }
 }
